@@ -20,7 +20,7 @@ instead `mod_php`. With `mod_fcgi` we can redirect request to correctly php vers
     sys_temp_dir        = "C:/xampp/tmp/"
     soap.wsdl_cache_dir = "C:/xampp/tmp/"
    ```
-5. Copy directory [apache](https://github.com/hugdx/multiple-php-version-with-xampp/apache) to `C:/xampp/apache` and edit file `C:/xampp/apache/conf/php.d/vars.conf`
+5. Copy directory [apache](https://github.com/hugdx/multiple-php-version-with-xampp/tree/master/apache) to `C:/xampp/apache` and edit file `C:/xampp/apache/conf/php.d/vars.conf`
     ```
     # Change this to your xampp on your computer. for this example, it is C:/xampp
     Define XAMPP_DIR        "C:/xampp"
